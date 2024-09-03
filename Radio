@@ -1,0 +1,15 @@
+class Radio extends Dispositivo {
+
+    public Radio(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void executarFuncao() {
+        tocarMusica();
+    }
+
+    public void tocarMusica() {
+        System.out.println(nome + " está tocando música.");
+    }
+}
