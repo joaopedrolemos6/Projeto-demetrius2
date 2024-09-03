@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        Dispositivo radio = new Radio("Rádio Sony");
+        Dispositivo notebook = new Notebook("Notebook Dell");
+        Dispositivo smartphone = new Smartphone("iPhone");
+
+        radio.executarFuncao();
+        notebook.executarFuncao();
+        smartphone.executarFuncao();
+    }
+}
