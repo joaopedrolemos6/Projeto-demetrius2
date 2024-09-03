@@ -1,0 +1,20 @@
+class Smartphone extends Dispositivo {
+
+    public Smartphone(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void executarFuncao() {
+        tocarMusica();
+        conectarInternet();
+    }
+
+    public void tocarMusica() {
+        System.out.println(nome + " está tocando música.");
+    }
+
+    public void conectarInternet() {
+        System.out.println(nome + " está conectado à internet.");
+    }
+}
