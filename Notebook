@@ -1,0 +1,15 @@
+class Notebook extends Dispositivo {
+
+    public Notebook(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void executarFuncao() {
+        conectarInternet();
+    }
+
+    public void conectarInternet() {
+        System.out.println(nome + " está conectado à internet.");
+    }
+}
